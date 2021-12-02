@@ -30,6 +30,13 @@ body {
     align-items: center;
 }
 
+
+.calc-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 .button {
     background-color: maroon;
     width: 30px; 
@@ -37,12 +44,6 @@ body {
     margin: 2px;
     border-radius: 3px;
     box-shadow: 1px 1px 1px black;
-}
-
-.calc-row {
- display: flex;
- justify-content: center;
- flex-direction: row;
 }
 
 .display{
